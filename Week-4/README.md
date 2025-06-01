@@ -15,7 +15,7 @@ This visual framework illustrates the layered approach taken in this project fro
 - Scales and standardizes features
 - Encodes categorical variables
 - Reduces dimensionality using PCA
-- generates clean dataset called online_shoppers_Intention_cleaned.csv which is required for week 4 modeling below.
+- Generates clean dataset called online_shoppers_Intention_cleaned.csv which is required for week 4 modeling below.
 
 ### 2. 🧠 Behavioral Segmentation (Week 4)
 **Notebook:** `Clustering_Analysis.ipynb`  
@@ -68,8 +68,7 @@ e.g. pip install pandas
 
 - Purchasing_Intent_Classifier.ipynb
 
-If analysis from week 3 requires to be reproduced, then place the original dataset    and then run 
-online_shoppers_Intention_cleaned.csv this dataset from week 3
+If analysis from week 3 is required then place the original dataset `online_shoppers_intention.csv` in the same folder as the notebook `Data_Preparation.ipynb`  and then run the cells.
 
 
 ### 5 📦 Artifacts
