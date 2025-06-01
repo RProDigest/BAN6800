@@ -1,9 +1,9 @@
 
-#  Takealot Online Customer Behavioral Segmentation and Intent Prediction
+# 🛒 Takealot Online Customer Behavioral Segmentation and Intent Prediction
 
 This project analyzes online shopper behavior using a structured machine learning pipeline. It is divided into three main notebooks, each corresponding to a key stage in the data science process:
 
-![Takealot Analytics Framework](Week-4/image/Takealot%20Online%20Customer%20Behavioral%20Segmentation%20and%20Purchasing%20Intent Predictive%20Framework%20Models.png)
+![Takealot Analytics Framework](image/Takealot_Framework.png)
 
 
 This visual framework illustrates the layered approach taken in this project:
