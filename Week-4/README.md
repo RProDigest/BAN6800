@@ -42,24 +42,31 @@ This visual framework illustrates the layered approach taken in this project fro
 
 
 ### 4. File Structure
-
+```md
 BAN6800/
 │
 ├── Week-4/
 │   ├── NoteBooks/
-         └──ClusteringNotebook/ 
-│   │       ├── Clustering_Analysis.ipynb       # Behavioral segmentation notebook
-│   │       └── online_shoppers_Intention_cleaned.csv              # Input dataset
-│   │
-│   ├── Classification/
-│   │   ├── Purchase_Intent_Model.ipynb     # Classification model notebook
-│   │   └── └── online_shoppers_Intention_cleaned.csv                  # Input dataset                 # Additional classification outputs
-│   │
-│   ├── Data_Preparation/
-│   │   └── Data_Cleaning.ipynb             # Initial data preprocessing
-│
+│        │ └──ClusteringNotebook/ 
+│        │  ├── Clustering_Analysis.ipynb       # Behavioral segmentation notebook
+│        │  └── online_shoppers_Intention_cleaned.csv             # Input dataset
+│        │
+│        └──ClassificationNoteBook/
+│        │  ├── Purchase_Intent_Model.ipynb     # Classification model notebook
+│        │  └── online_shoppers_Intention_cleaned.csv      │        │            # Input dataset                 # Additional classification outputs
+│        │
+│        └──DataCleaningNotebook/
+│        │   ├──Data_Cleaning.ipynb 
+│        │   ├── online_shoppers_intention.csv #original dataset  │      
+│        │   └── online_shoppers_Intention_cleaned.csv      |        │ # cleaned dataset
+│   ├──SavedModels/
+│        └──xgboost_model.joblib
+│   ├──Plots
+│        ├──ROC_XGBoost.png
+│        ├──SHAP.png
+│        └──PRC_Curve.png
 └── README.md
- 
+ ```
 
 
 ### 4. 📁 How to Run This Project 
