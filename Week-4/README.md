@@ -63,6 +63,8 @@ BAN6800/
 │   │     └──xgboost_model.joblib
 │   ├── Plots
 │   │     ├──ROC_XGBoost.png
+│   │     ├──Elbow.png
+│   │     ├──Customer Segmentation.png
 │   │     ├──SHAP.png
 │   │     └──PRC_Curve.png
 ├─  └── README.md
