@@ -8,8 +8,8 @@ This project analyzes online shopper behavior using a structured machine learnin
 
 This visual framework illustrates the layered approach taken in this project from week 3 into week 4:
 
-### 1. 🧹 Data Cleaning (Week 3 - Milestone 3, completed last week)
-**Notebook:** `Data_Preparation.ipynb`  
+### 1. 🧹 Data Cleaning (Week 3 - Milestone 3, completed last week). 
+**Notebook:** `Data_Preparation.ipynb` renamed for clarity in week 4 from `MilestoneOne Assignment_BAN6800_Mubanga_Nsofu.ipynb`  
 **Key Actions:**
 - Handles missing values, duplicates, outliers, and skewness
 - Scales and standardizes features
