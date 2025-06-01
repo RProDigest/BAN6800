@@ -41,6 +41,26 @@ This visual framework illustrates the layered approach taken in this project fro
 - SHAP-based interpretability of predictions
 
 
+### 4. File Structure
+
+BAN6800/
+│
+├── Week-4/
+│   ├── NoteBooks/
+         └──ClusteringNotebook/ 
+│   │       ├── Clustering_Analysis.ipynb       # Behavioral segmentation notebook
+│   │       └── online_shoppers_Intention_cleaned.csv              # Input dataset
+│   │
+│   ├── Classification/
+│   │   ├── Purchase_Intent_Model.ipynb     # Classification model notebook
+│   │   └── └── online_shoppers_Intention_cleaned.csv                  # Input dataset                 # Additional classification outputs
+│   │
+│   ├── Data_Preparation/
+│   │   └── Data_Cleaning.ipynb             # Initial data preprocessing
+│
+└── README.md
+ 
+
 
 ### 4. 📁 How to Run This Project 
 
@@ -60,7 +80,7 @@ e.g. pip install pandas
 
 ```
 
-4.4. Place the dataset `online_shoppers_Intention_cleaned.csv` in the project root directory.
+4.4. Place the dataset  `online_shoppers_Intention_cleaned.csv` ,which was saved in the folder CleanedDataset on github,into the project root directory.
 
 4.5 Run the notebooks in the following order (for Week 4):
 
