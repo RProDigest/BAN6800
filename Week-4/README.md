@@ -58,7 +58,7 @@ BAN6800/
 │   │     └──DataCleaningNotebook/
 │   │       ├──Data_Cleaning.ipynb 
 │   │       ├── online_shoppers_intention.csv #original dataset        
-│   │       └── online_shoppers_Intention_cleaned.csv      |   │  # cleaned dataset
+│   │       └── online_shoppers_Intention_cleaned.csv     # cleaned dataset
 │   ├── SavedModels/
 │   │     └──xgboost_model.joblib
 │   ├── Plots
