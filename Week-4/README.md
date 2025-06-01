@@ -69,25 +69,25 @@ BAN6800/
  ```
 
 
-### 4. 📁 How to Run This Project 
+### 5. 📁 How to Run This Project 
 
-4.1. Clone the repository:
+5.1. Clone the repository:
    ```bash
    git clone https://github.com/rprodigest/Week-4.git
    cd Week-4
    ```
-4.2. 📎 Requirements
+5.2. 📎 Requirements
 - Python 3.8+, pandas, numpy, matplotlib
 - seaborn, SweetViz, scikit-learn, optuna 
 - shap, joblib, xgboost, imbalance
 
-4.3 If any requirements are missing simply install using pip command:
+5.3 If any requirements are missing simply install using pip command:
 ```python
 e.g. pip install pandas
 
 ```
 
-4.4. Place the dataset  `online_shoppers_Intention_cleaned.csv` ,which was saved in the folder CleanedDataset on github,into the project root directory.
+5.4. Place the dataset  `online_shoppers_Intention_cleaned.csv` ,which was saved in the folder CleanedDataset on github,into the project root directory.
 
 4.5 Run the notebooks in the following order (for Week 4):
 
@@ -98,7 +98,7 @@ e.g. pip install pandas
 If analysis from week 3 is required then place the original dataset `online_shoppers_intention.csv` in the same folder as the notebook `Data_Preparation.ipynb`  and then run the cells.
 
 
-### 5 📦 Artifacts
+### 6 📦 Artifacts
 📊 xgboost_model.joblib – Saved model for deployment
 
 📈 SHAP summary plots for model explainability
@@ -108,7 +108,7 @@ If analysis from week 3 is required then place the original dataset `online_shop
 🧾 Classification reports for both XGBoost and Logistic Regression
 
 
-### 6 📌 Project Highlights
+### 7 📌 Project Highlights
 ✅ Integrated unsupervised and supervised learning
 
 ✅ Model interpretability using SHAP
