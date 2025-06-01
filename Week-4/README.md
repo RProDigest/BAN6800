@@ -47,25 +47,25 @@ BAN6800/
 │
 ├── Week-4/
 │   ├── NoteBooks/
-│        │ └──ClusteringNotebook/ 
-│        │  ├── Clustering_Analysis.ipynb       # Behavioral segmentation notebook
-│        │  └── online_shoppers_Intention_cleaned.csv             # Input dataset
-│        │
-│        └──ClassificationNoteBook/
-│        │  ├── Purchase_Intent_Model.ipynb     # Classification model notebook
-│        │  └── online_shoppers_Intention_cleaned.csv      │        │            # Input dataset                 # Additional classification outputs
-│        │
-│        └──DataCleaningNotebook/
-│        │   ├──Data_Cleaning.ipynb 
-│        │   ├── online_shoppers_intention.csv #original dataset  │      
-│        │   └── online_shoppers_Intention_cleaned.csv      |        │ # cleaned dataset
-│   ├──SavedModels/
-│        └──xgboost_model.joblib
-│   ├──Plots
-│        ├──ROC_XGBoost.png
-│        ├──SHAP.png
-│        └──PRC_Curve.png
-└── README.md
+│   │    └──ClusteringNotebook/ 
+│   │       ├── Clustering_Analysis.ipynb # Behavioral segmentation notebook
+│   │       └── online_shoppers_Intention_cleaned. # Input dataset
+│   │
+│   │     └──ClassificationNoteBook/
+│   │       ├── Purchase_Intent_Model.ipynb #Classification model notebook
+│   │       └── online_shoppers_Intention_cleaned.csv #  Input dataset                
+│   │
+│   │     └──DataCleaningNotebook/
+│   │       ├──Data_Cleaning.ipynb 
+│   │       ├── online_shoppers_intention.csv #original dataset        
+│   │       └── online_shoppers_Intention_cleaned.csv      |   │  # cleaned dataset
+│   ├── SavedModels/
+│   │     └──xgboost_model.joblib
+│   ├── Plots
+│   │     ├──ROC_XGBoost.png
+│   │     ├──SHAP.png
+│   │     └──PRC_Curve.png
+├─  └── README.md
  ```
 
 
