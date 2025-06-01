@@ -6,17 +6,18 @@ This project analyzes online shopper behavior using a structured machine learnin
 ![Takealot Analytics Framework](image/Takealot_Framework.png)
 
 
-This visual framework illustrates the layered approach taken in this project:
+This visual framework illustrates the layered approach taken in this project from week 3 into week 4:
 
-### 1. 🧹 Data Cleaning
+### 1. 🧹 Data Cleaning (Week 3 - Milestone 3, completed last week)
 **Notebook:** `Data_Preparation.ipynb`  
 **Key Actions:**
 - Handles missing values, duplicates, outliers, and skewness
 - Scales and standardizes features
 - Encodes categorical variables
 - Reduces dimensionality using PCA
+- generates clean dataset called online_shoppers_Intention_cleaned.csv which is required for week 4 modeling below.
 
-### 2. 🧠 Behavioral Segmentation
+### 2. 🧠 Behavioral Segmentation (Week 4)
 **Notebook:** `Clustering_Analysis.ipynb`  
 **Key Actions:**
 - Performs PCA-based dimensionality reduction
@@ -25,7 +26,7 @@ This visual framework illustrates the layered approach taken in this project:
 - Profiles clusters based on metrics such as `PageValues`, `BounceRates`, `Interaction_Intensity`
 - Evaluates clustering quality using Davies-Bouldin Score
 
-### 3. 🎯 Purchasing Intent Prediction
+### 3. 🎯 Purchasing Intent Prediction (Week 4)
 **Notebook:** `Purchasing_Intent_Classifier.ipynb`  
 **Key Actions:**
 - Applies XGBoost and Logistic Regression with hyperparameter tuning (Optuna)
@@ -41,7 +42,7 @@ This visual framework illustrates the layered approach taken in this project:
 
 
 
-### 4. 📁 How to Run This Project
+### 4. 📁 How to Run This Project 
 
 4.1. Clone the repository:
    ```bash
@@ -59,17 +60,16 @@ e.g. pip install pandas
 
 ```
 
+4.4. Place the dataset `online_shoppers_Intention_cleaned.csv` in the project root directory.
 
-4.3. Place the dataset online_shoppers_cleaned.csv in the project root directory.
+4.5 Run the notebooks in the following order (for Week 4):
 
-4.4 Run the notebooks in the following order:
-
- - Data_Preparation.ipynb
-
-- Clustering_Analysis.ipynb
+ - Clustering_Analysis.ipynb
 
 - Purchasing_Intent_Classifier.ipynb
 
+If analysis from week 3 requires to be reproduced, then place the original dataset    and then run 
+online_shoppers_Intention_cleaned.csv this dataset from week 3
 
 
 ### 5 📦 Artifacts
