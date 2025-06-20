@@ -75,9 +75,10 @@ pip install -r requirements.txt
 
 ```bash
 
-shiny run --reload takealot_app.py
+python -m shiny run --reload takealot_app.py
 
 ```
+Then, open your browser and go to http://127.0.0.1:8000
 
 ---
 ## 🚀  Deployment
@@ -127,6 +128,9 @@ This project satisfies Nexford’s final capstone module requirements:
 
 ---
 ## 📝 License
-This project is for academic and educational use. Contact the author for extended licensing and commercial rights.
+This project is provided for **academic and educational use only**.  
+For **extended licensing**, **commercial use**, or integration into proprietary platforms, please contact the author directly.
+
+© 2025 Mubanga Nsofu. All rights reserved.
 
 ---
