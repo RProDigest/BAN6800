@@ -93,9 +93,9 @@ For reproducibility, all models were trained offline and included as .pkl or .jo
 
 ---
 ## 📂  Dataset Usage
-
 The app is designed to work with a cleaned version of the Online Shoppers Intention dataset. This dataset is included in the GitHub repository. After cloning the repository, you can upload the dataset using the app's file upload feature. 
 The deployed online model also relies on this same dataset—please ensure you upload the provided CSV file when using the app on shinyapps.io.
+
 ---
 
 ## 📽️ Final Project Requirements (Academic)
@@ -119,13 +119,14 @@ This project satisfies Nexford’s final capstone module requirements:
 **Mubanga Nsofu**
 
 *MSc Data Analytics Candidate*
-[GitHub Profile](https://github.com/RProDigest/)
-- [@rprodigest](https://x.com/rprodigest)
-- mubangansofujr@gmail.com
+- [GitHub Profile](https://github.com/RProDigest/)
+- [Twitter Profile](https://x.com/rprodigest)
+- email: mubangansofujr@gmail.com
 
 ---
 
 ---
 ## 📝 License
 This project is for academic and educational use. Contact the author for extended licensing and commercial rights.
+
 ---
