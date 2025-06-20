@@ -17,7 +17,9 @@ This six weeks project culminates into a Python Shiny web app that offers a slee
 - 🔮 Predict purchase intent using **XGBoost Classifier**
 - 🧠 SHAP analysis for feature importance
 - 📉 Clean visualizations and user-friendly layout
-- 🖼️ Modern UI with two-tab navigation and Takealot branding
+- 🖼️ Modern UI with three-tab navigation modular design is shown below
+
+![Takealot ML Driven Analytics Hub](image/takealot_analytics_hub_20250620.png)
 
 ---
 
