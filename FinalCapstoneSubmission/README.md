@@ -99,6 +99,53 @@ The deployed online model also relies on this same dataset—please ensure you u
 
 ---
 
+ 
+## 🏗️ Architecture Design
+🚀 Application Foundation
+
+- ML Model Integration: Pre-loaded KMeans clustering and XGBoost prediction models with SHAP explainer
+- Modern UI Framework: Glassmorphic design system with 2025 aesthetic standards
+- Modular Architecture: Three distinct functional modules for scalability
+
+📱 Navigation Structure
+
+Tab 1 - **Customer Analysis:** Real-time single customer prediction and segmentation
+Tab 2 - **Dataset Analytics:** Batch processing capabilities for large-scale analysis
+Tab 3 - **Export Hub:** Comprehensive download center for all analysis outputs
+
+🔬 AI-Powered Analysis Engine
+
+- **12 Behavioral Input Parameters:** Duration metrics, bounce/exit rates, page values, and interaction intensity
+- **Dual ML Pipeline:** Simultaneous KMeans clustering and XGBoost probability prediction-
+- **Explainable AI:** SHAP analysis for feature importance and model transparency
+- **Smart Insights:** Automated recommendation generation based on customer segments
+
+📊 Data Processing Pipeline
+
+**Data Input:** CSV upload functionality with cleaned dataset 
+**Interactive Preview:** Real-time data validation and 10-row display preview
+**Scalable Batch Analysis:** Configurable sample size control for performance optimization
+**Statistical Summaries:** Automated generation of key performance metrics
+
+🎨 Visualization Components
+
+**Dynamic Metric Cards:** Real-time display of segmentation and purchase intent results
+**SHAP Feature Plots:** Interactive feature importance visualizations
+**Behavior Progress Bars:** Normalized metric displays for quick pattern recognition
+
+💾 Advanced Export System
+
+**Multiple Format Support:** CSV exports for predictions and batch results
+**Comprehensive Reports:** Full-text analysis reports with SHAP values and insights
+**Timestamped Downloads:** Automated file naming with generation timestamps
+
+🎯 Key Design Principles
+
+**User-Centric Interface:** Intuitive workflow from data input to actionable insights
+**Real-Time Responsiveness:** Immediate feedback and dynamic result updates
+**Scalable Performance:** Optimized for both single predictions and batch processing
+**Professional Output:** Export-ready formats suitable for business reporting
+
 ## 📽️ Final Project Requirements (Academic)
 This project satisfies Nexford’s final capstone module requirements:
 
