@@ -50,8 +50,8 @@ This six weeks project culminates into a Python Shiny web app that offers a slee
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/takealot-shopper-insights.git
-cd takealot-shopper-insights
+git clone https://github.com/RProDigest/BAN6800.git
+cd BAN6800/FinalCapstoneSubmission
 
 ```
 
