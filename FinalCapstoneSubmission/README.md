@@ -45,7 +45,7 @@ This six weeks project culminates into a Python Shiny web app that offers a slee
 ```
 
 ---
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 
 1. Clone the repository:
 
@@ -80,7 +80,7 @@ shiny run --reload takealot_app.py
 ```
 
 ---
-🚀 5. Deployment
+## 🚀  Deployment
 This app is deployed via shinyapps.io using rsconnect-python. Deployment steps included:
 
 Model bundling (in /models)
@@ -92,13 +92,13 @@ rsconnect CLI used to push to mubanga-nsofu.shinyapps.io
 For reproducibility, all models were trained offline and included as .pkl or .joblib files.
 
 ---
-📂 6. Dataset Usage
+## 📂  Dataset Usage
 
 The app is designed to work with a cleaned version of the Online Shoppers Intention dataset. This dataset is included in the GitHub repository. After cloning the repository, you can upload the dataset using the app's file upload feature. 
 The deployed online model also relies on this same dataset—please ensure you upload the provided CSV file when using the app on shinyapps.io.
 ---
 
-📽️ 7. Final Project Requirements (Academic)
+## 📽️ Final Project Requirements (Academic)
 This project satisfies Nexford’s final capstone module requirements:
 
 ✅ End-to-end machine learning pipeline
@@ -115,15 +115,17 @@ This project satisfies Nexford’s final capstone module requirements:
 
 ---
 
-📢 8. Author
+## 📢  Author
 **Mubanga Nsofu**
 
 *MSc Data Analytics Candidate*
 [GitHub Profile](https://github.com/RProDigest/)
+- [@rprodigest](https://x.com/rprodigest)
+- mubangansofujr@gmail.com
 
 ---
 
 ---
-📝 9. License
+## 📝 License
 This project is for academic and educational use. Contact the author for extended licensing and commercial rights.
 ---
