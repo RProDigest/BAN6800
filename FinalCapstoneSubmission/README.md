@@ -46,21 +46,59 @@ This six weeks project culminates into a Python Shiny web app that offers a slee
 
 ---
 ⚙️ Setup Instructions
-Clone the repository:
 
+1. Clone the repository:
+
+```bash
 git clone https://github.com/YOUR_USERNAME/takealot-shopper-insights.git
 cd takealot-shopper-insights
 
-
-
-
----
-📂 Dataset
-The app expects a cleaned version of the Online Shoppers Intention dataset as input. You can upload your own CSV file for live prediction and segmentation.
+```
 
 ---
 
-📽️ Final Project Requirements (Academic)
+2. Create a virtual environment (recommended):
+``` bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+---
+3. Install dependencies:
+
+``` bash
+pip install -r requirements.txt
+
+```
+
+4. Run the app locally:
+
+```bash
+
+shiny run --reload takealot_app.py
+
+```
+
+---
+🚀 5. Deployment
+This app is deployed via shinyapps.io using rsconnect-python. Deployment steps included:
+
+Model bundling (in /models)
+
+Dependency freezing via requirements.txt
+
+rsconnect CLI used to push to mubanga-nsofu.shinyapps.io
+
+For reproducibility, all models were trained offline and included as .pkl or .joblib files.
+
+---
+📂 6. Dataset Usage
+
+The app is designed to work with a cleaned version of the Online Shoppers Intention dataset. This dataset is included in the GitHub repository. After cloning the repository, you can upload the dataset using the app's file upload feature. 
+The deployed online model also relies on this same dataset—please ensure you upload the provided CSV file when using the app on shinyapps.io.
+---
+
+📽️ 7. Final Project Requirements (Academic)
 This project satisfies Nexford’s final capstone module requirements:
 
 ✅ End-to-end machine learning pipeline
@@ -77,13 +115,15 @@ This project satisfies Nexford’s final capstone module requirements:
 
 ---
 
-📢 Author
-Mubanga Nsofu
+📢 8. Author
+**Mubanga Nsofu**
 
-MSc Data Analytics Candidate
-GitHub
+*MSc Data Analytics Candidate*
+[GitHub Profile](https://github.com/RProDigest/)
 
 ---
-📝 License
+
+---
+📝 9. License
 This project is for academic and educational use. Contact the author for extended licensing and commercial rights.
 ---
