@@ -1,0 +1,3 @@
+applications:
+  - name: takealot-analytics
+    python_file: takealot_app.py
