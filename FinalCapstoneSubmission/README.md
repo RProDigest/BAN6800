@@ -43,6 +43,7 @@ This six weeks project culminates into a Python Shiny web app that offers a slee
 ├── requirements.txt                 # Python dependency list
 ├── image/
 │   └── Takealot_Framework.png       # Analytical framework diagram
+|   └── takealot_analytics_hub_20250620.png # High level design architecture
 └── README.md                        # This documentation file
 ```
 
